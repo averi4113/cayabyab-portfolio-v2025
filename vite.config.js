@@ -6,8 +6,10 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss()],
-  server : {
+    tailwindcss()
+  ],
+  server: {
     port: 3000,
-  }
+  },
+  base: '/cayabyab-portfolio-v2025/', // Add this line
 })
