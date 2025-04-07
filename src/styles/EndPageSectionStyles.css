@@ -11,6 +11,76 @@
     font-size: 2rem;
     font-weight: 500;
     color: #D4D971;
-    max-width: 57%;
+    max-width: 50%;
     border: 2px solid #D4D971;  /* For layout debugging */
   } 
+
+  
+.endpage-button {
+    border: 2px solid #C46797;
+    border-radius: 100px;
+    padding: 1rem 2rem;
+    color: #C46797;
+    background: transparent;
+    font-family: 'Fira Code', monospace;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 1rem 0;
+    max-width: 15%;
+
+}
+
+.endpage-button-2 {
+  border: 2px solid #6DC050;
+  border-radius: 100px;
+  padding: 1rem 2rem;
+  color: #6DC050;
+  background: transparent;
+  font-family: 'Fira Code', monospace;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 1rem 0;
+  max-width: 15%;
+
+}
+
+.endpage-button:hover {
+    background: rgba(196, 103, 151, 0.1);
+    transform: translateY(-2px);
+}
+
+.endpage-button:active {
+    transform: translateY(0);
+}
+
+.endpage-button-2:hover {
+  background: rgba(109, 192, 80, 0.1);    transform: translateY(-2px);
+}
+
+.endpage-button-2:active {
+  transform: translateY(0);
+}
+
+.logo-endpage-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2rem;  
+  margin-right : 220px;
+  margin-top :  -250px;
+}
+
+.logo-endpage {
+  width: 15rem;
+  height: auto;
+  padding: 0.5rem;
+  margin-left: auto;  /* Push to right */
+  filter: drop-shadow(0 0 10px rgba(196, 103, 151, 0.5));  /* Pink glow matching border color */
+  transition: filter 0.3s ease;
+}
+
+.logo-endpage:hover {
+  filter: drop-shadow(0 0 15px rgba(196, 103, 151, 0.7));  /* Stronger glow on hover */
+}
