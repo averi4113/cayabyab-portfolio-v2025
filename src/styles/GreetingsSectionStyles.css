@@ -1,0 +1,62 @@
+@import "tailwindcss";
+/* Styles for Greetings Section */
+.greetings-container {
+  max-width: 57%;
+  }
+
+.greetings-1 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #D4D971;
+    max-width: 63%;
+  } 
+
+  .greetings-2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #C46797;
+    max-width: 58%
+  } 
+
+  .greetings-3 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #6DC050;
+    max-width: 85%;
+  } 
+
+  .greetings-container-2 {
+    color: #9A9E99;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 57%;  /* Full width to allow proper spacing */
+    padding: 0 2rem;  /* Add padding for spacing */
+  }
+
+  .greetings-description-1 {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 100%;  /* Limit text width */
+  }
+  .cayayab-photo-container {
+    flex-shrink: 0;
+    margin-left: auto;  /* Push to right */
+    margin-bottom: 100px;
+    margin-right: 2rem;  /* Space from right edge */
+    margin-top: -390px;  /* Increased negative margin to move photo higher */
+    width: 40%;
+    right: 10px;
+    top: auto;
+  }
+
+.cayayab-photo {
+  width: 650px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+

@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+.oty-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    font-family: 'Fira Code', monospace;
+}
+/*  */
+.oty-header {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #D4D971;
+    max-width: 57%;
+    border: 2px solid #D4D971;  /* For layout debugging */
+}
+
+.oty-header-2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #C46797;
+    max-width: 57%;
+    border: 2px solid #C46797;  /* For layout debugging */
+    margin-left: auto;  
+}
+.oty-description-container {
+    color: #9A9E99;
+    border: 2px solid blue;
+    width: 50%;  
+    align-items: flex-start;
+    margin-left : 3%;
+}
+
+.oty-description {
+    padding-bottom: 20px;   
+    border: 2px solid #ff0000;
+}
+
+.oty-description-container-2 {
+    color: #9A9E99;
+    border: 2px solid blue;
+    width: 50%;  
+    align-items: flex-start;
+    margin-left: auto;  
+}
+
+.oty-description-2 {
+    padding-bottom: 20px;   
+    border: 2px solid #ff0000;
+}

@@ -1,0 +1,16 @@
+@import "tailwindcss";
+/* Styles for endpage Section */
+.endpage-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    font-family: 'Fira Code', monospace;
+  }
+
+.endpage-1 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #D4D971;
+    max-width: 57%;
+    border: 2px solid #D4D971;  /* For layout debugging */
+  } 

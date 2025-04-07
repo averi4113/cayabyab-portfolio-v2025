@@ -1,0 +1,22 @@
+
+@import "tailwindcss";
+
+.navbar {
+  background-color: transparent; /* Changed from #1E1E1E to transparent */
+}
+
+.nav-link {
+  color: #9A9E99;
+  font-size: 15px;
+  transition: color 0.3s ease; /* Added padding around links */
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+  padding: 0.5rem; /* Added padding around logo */
+}
