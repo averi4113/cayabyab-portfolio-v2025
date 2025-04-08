@@ -6,13 +6,18 @@
     padding: 2rem;
     font-family: 'Fira Code', monospace;
 }
+.oty-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    font-family: 'Fira Code', monospace;
+}
 /*  */
 .oty-header {
     font-size: 2rem;
     font-weight: 500;
     color: #D4D971;
     max-width: 57%;
-    border: 2px solid #D4D971;  /* For layout debugging */
 }
 
 .oty-header-2 {
@@ -20,12 +25,10 @@
     font-weight: 500;
     color: #C46797;
     max-width: 57%;
-    border: 2px solid #C46797;  /* For layout debugging */
     margin-left: auto;  
 }
 .oty-description-container {
     color: #9A9E99;
-    border: 2px solid blue;
     width: 50%;  
     align-items: flex-start;
     margin-left : 3%;
@@ -33,12 +36,10 @@
 
 .oty-description {
     padding-bottom: 20px;   
-    border: 2px solid #ff0000;
 }
 
 .oty-description-container-2 {
     color: #9A9E99;
-    border: 2px solid blue;
     width: 50%;  
     align-items: flex-start;
     margin-left: auto;  
@@ -46,5 +47,107 @@
 
 .oty-description-2 {
     padding-bottom: 20px;   
-    border: 2px solid #ff0000;
 }
+
+.languages-container {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin-left: auto;
+    margin-top: -300px;
+    margin-right: 150px;
+    border-radius: 8px;
+    padding: 2rem;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.language-icon {
+    position: absolute;
+    transition: all 0.3s ease;
+    color: #9A9E99;
+}
+
+/* Center JS icon */
+.icon-large-3 {
+    font-size: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+
+/* Position other icons around JS */
+.icon-small-1 {
+    font-size: 32px;
+    top: 25%;
+    left: 25%;
+}
+
+.icon-medium-1 {
+    font-size: 48px;
+    top: 40%;
+    right: 65%;
+}
+
+.icon-large-1 {
+    font-size: 56px;
+    bottom: 20%;
+    left: 30%;
+}
+
+.icon-small-2 {
+    font-size: 32px;
+    top: 25%;
+    left: 40%;
+}
+
+.icon-medium-2 {
+    font-size: 48px;
+    bottom: 60%;
+    right: 30%;
+}
+
+.icon-large-2 {
+    font-size: 56px;
+    bottom: 25%;
+    right: 30%;
+}
+
+.icon-small-3 {
+    font-size: 32px;
+    top: 40%;
+    right: 25%;
+}
+
+/* Hover effects */
+.language-icon:hover {
+    transform: scale(1.2);
+    color: #D4D971;
+    z-index: 3;
+}
+
+.icon-large-3:hover {
+    transform: translate(-50%, -50%) scale(1.2);
+    color: #D4D971;
+    z-index: 3;
+}
+
+.aws-container {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin-right: auto;
+    margin-top: -230px;
+    margin-left: 220px;
+    border-radius: 8px;
+    padding: 2rem;
+    font-size: 200px;
+    color : #9A9E99;
+
+}
+

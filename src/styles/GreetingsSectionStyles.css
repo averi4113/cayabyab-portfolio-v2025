@@ -2,27 +2,29 @@
 /* Styles for Greetings Section */
 .greetings-container {
   max-width: 57%;
+  margin-left : 50px;
+  
   }
 
 .greetings-1 {
     font-size: 2rem;
     font-weight: 500;
     color: #D4D971;
-    max-width: 63%;
+    max-width: 67%;
   } 
 
   .greetings-2 {
     font-size: 2rem;
     font-weight: 500;
     color: #C46797;
-    max-width: 58%
+    max-width: 70%
   } 
 
   .greetings-3 {
     font-size: 2rem;
     font-weight: 500;
     color: #6DC050;
-    max-width: 85%;
+    max-width: 100%;
   } 
 
   .greetings-container-2 {
@@ -31,8 +33,9 @@
     justify-content: space-between;
     align-items: flex-start;
     gap: 2rem;
-    width: 57%;  /* Full width to allow proper spacing */
-    padding: 0 2rem;  /* Add padding for spacing */
+    width: 57%;  
+    padding: 0 2rem;  
+    margin-left : 45px;
   }
 
   .greetings-description-1 {
@@ -45,12 +48,12 @@
   .cayayab-photo-container {
     flex-shrink: 0;
     margin-left: auto;  /* Push to right */
-    margin-bottom: 100px;
-    margin-right: 2rem;  /* Space from right edge */
-    margin-top: -390px;  /* Increased negative margin to move photo higher */
-    width: 40%;
-    right: 10px;
+    margin-bottom: 150px;  /* Space from right edge */
+    margin-top: -480px;  /* Changed from -390px to -490px to move photo higher */
+    width: 45%;
+    right: 5px;
     top: auto;
+
   }
 
 .cayayab-photo {
@@ -58,5 +61,42 @@
   height: auto;
   object-fit: cover;
   display: block;
+}
+
+.quote-container {
+  margin-top: 2rem;
+  width: 57%;
+  margin-left: 45px;
+  
+  background: transparent;
+  border: 2px solid #9A9E99;
+  border-radius: 8px;
+  padding: 1.5rem;
+  height: auto;
+  min-height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-text {
+  text-align: center;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.quote-text.fade-out {
+  opacity: 0;
+}
+
+.quote-text.fade-in {
+  opacity: 1;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  5% { opacity: 1; }
+  85% { opacity: 1; }
+  100% { opacity: 0; }
 }
 

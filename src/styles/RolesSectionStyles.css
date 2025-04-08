@@ -12,7 +12,6 @@
     font-weight: 500;
     color: #D4D971;
     max-width: 57%;
-    border: 2px solid #D4D971;  /* For layout debugging */
 }
 
 .roles-header-2 {
@@ -20,12 +19,10 @@
     font-weight: 500;
     color: #C46797;
     max-width: 57%;
-    border: 2px solid #C46797;  /* For layout debugging */
     margin-left: auto;  
 }
 .roles-description-container {
     color: #9A9E99;
-    border: 2px solid blue;
     width: 50%;  
     align-items: flex-start;
     margin-left : 3%;
@@ -33,12 +30,10 @@
 
 .roles-description {
     padding-bottom: 20px;   
-    border: 2px solid #ff0000;
 }
 
 .roles-description-container-2 {
     color: #9A9E99;
-    border: 2px solid blue;
     width: 50%;  
     align-items: flex-start;
     margin-left: auto;  
@@ -46,5 +41,63 @@
 
 .roles-description-2 {
     padding-bottom: 20px;   
-    border: 2px solid #ff0000;
 }
+
+.averi-logo {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top : -300px;
+    size : 10px;
+    margin-right : 200px;
+}
+
+.averi-logo-image{
+    width: 10px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    width: 20%;
+    right: 5px;
+    top: auto;
+}
+
+.icxeed-photo-container {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top : 60px;
+    size : 10px;
+    margin-right : 330px;
+}
+
+.icxeed-photo{
+    width: 10px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    width: 15%;
+    right: 5px;
+    top: auto;
+
+}
+
+.mapua-logo {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    size : 5px;
+    margin-right : 100px;
+    margin-top : -90px;
+}
+
+.mapua-logo-image{
+    width: 10px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    width: 13%;
+    right: 5px;
+    top: auto;
+    
+    }
